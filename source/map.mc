@@ -35,8 +35,8 @@ class map{
    var newTiles = 0;  // tiles visited for the first time
    var newTilesR = 0; // tiles visited for the first time this ride
 
-   var zoom = 14; //squares
-   //var zoom = 17; //Squadratinhos 2 4 8 - 8x8
+   //var zoom = 14; //squares
+   var zoom = 17; //Squadratinhos 2 4 8 - 8x8
 
    var totalTiles = 1 << zoom;
 

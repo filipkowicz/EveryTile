@@ -338,37 +338,37 @@ class EveryTileView extends Ui.DataField {
        }
     }
 
-    function setCol(dc,v)
-    {
-      if(v==0)
-      {
-         dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_DK_RED);
-      }
-      if(v==1)
-      {
-         dc.setColor(Gfx.COLOR_DK_GREEN, Gfx.COLOR_DK_GREEN);
-      }
-      if(v==2)
-      {
-         dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);
-      }
-    }
-
 //    function setCol(dc,v)
 //    {
 //      if(v==0)
 //      {
-//         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_LT_GRAY);
+//         dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_DK_RED);
 //      }
 //      if(v==1)
 //      {
-//         dc.setColor(Gfx.COLOR_PURPLE, Gfx.COLOR_PURPLE);
+//         dc.setColor(Gfx.COLOR_DK_GREEN, Gfx.COLOR_DK_GREEN);
 //      }
 //      if(v==2)
 //      {
-//         dc.setColor(Gfx.COLOR_PINK, Gfx.COLOR_PINK);
+//         dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);
 //      }
 //    }
+
+    function setCol(dc,v)
+    {
+      if(v==0)
+      {
+         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_LT_GRAY);
+      }
+      if(v==1)
+      {
+         dc.setColor(Gfx.COLOR_PURPLE, Gfx.COLOR_PURPLE);
+      }
+      if(v==2)
+      {
+         dc.setColor(Gfx.COLOR_PINK, Gfx.COLOR_PINK);
+      }
+    }
 
 
     function plotArrow(dc,x,y)
